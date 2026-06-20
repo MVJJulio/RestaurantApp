@@ -72,7 +72,7 @@ class RestaurantOrderTest {
     */
     @Test
     fun decrementingItemToZero_removesItFromOrderList() {
-        // Añadir item (Agua mineral ID 5)
+        // Añadir item(Agua mineral ID 5)
         composeTestRule.onNodeWithTag("addButton_5").performScrollTo().performClick()
 
         composeTestRule.onNodeWithTag("decrementOrderItem_5")
